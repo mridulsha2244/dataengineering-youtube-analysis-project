@@ -6,21 +6,21 @@ This end-to-end Data Engineering project focuses on ingesting, transforming, sto
 
 ## Objectives
 
-Data Ingestion – Ingest raw YouTube data from multiple sources
-ETL Pipeline – Transform raw data into clean, structured formats using AWS Glue
-Data Lake – Store and organize data in Amazon S3 as a centralized, scalable repository
-Scalability – Ensure the architecture supports increasing data volume
-Cloud-Based Processing – Utilize AWS cloud services to manage and process large datasets
-Data Visualization – Build a dashboard using Amazon QuickSight to derive key insights
+1. Data Ingestion – Ingest raw YouTube data from multiple sources
+2. ETL Pipeline – Transform raw data into clean, structured formats using AWS Glue
+3. Data Lake – Store and organize data in Amazon S3 as a centralized, scalable repository
+4. Scalability – Ensure the architecture supports increasing data volume
+5. Cloud-Based Processing – Utilize AWS cloud services to manage and process large datasets
+6. Data Visualization – Build a dashboard using Amazon QuickSight to derive key insights
 
 ## AWS Services Used
 
-Amazon S3 – For storing raw and processed data securely
-AWS IAM – To manage user and service permissions securely
-AWS Glue – For ETL jobs to clean and prepare data
-AWS Lambda – For serverless triggers and lightweight processing
-AWS Athena – For running SQL queries directly on data stored in S3
-Amazon QuickSight – To visualize metrics and trends with interactive dashboards
+1. Amazon S3 – For storing raw and processed data securely
+2. AWS IAM – To manage user and service permissions securely
+3. AWS Glue – For ETL jobs to clean and prepare data
+4. AWS Lambda – For serverless triggers and lightweight processing
+5. AWS Athena – For running SQL queries directly on data stored in S3
+6. Amazon QuickSight – To visualize metrics and trends with interactive dashboards
 
 ## Dataset
 
