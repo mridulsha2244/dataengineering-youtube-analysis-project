@@ -24,10 +24,9 @@ This end-to-end Data Engineering project focuses on ingesting, transforming, sto
 
 ## Dataset
 
-The project uses the YouTube Trending Videos Dataset from Kaggle. This dataset contains daily stats for trending videos across multiple countries, including:
+This Kaggle dataset contains statistics (CSV files) on daily popular YouTube videos over the course of many months. There are up to 200 trending videos published every day for many locations. The data for each region is in its own file. The video title, channel title, publication time, tags, views, likes and dislikes, description, and comment count are among the items included in the data. A category_id field, which differs by area, is also included in the JSON file linked to the region.
 
-Video title, channel, publish time, tags, views, likes, dislikes, comments
-Regional category ID (mapped from JSON metadata)
+https://www.kaggle.com/datasets/datasnaek/youtube-new
 
 ## Key Outcomes
 
