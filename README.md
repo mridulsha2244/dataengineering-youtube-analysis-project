@@ -1,26 +1,36 @@
-# Data Engineering YouTube Analysis Project
+#🎥 YouTube Data Engineering Project
 
-## Overview
+##📌 Overview
 
-This project aims to securely manage, streamline, and perform analysis on the structured and semi-structured YouTube videos data based on the video categories and the trending metrics.
+This end-to-end Data Engineering project focuses on ingesting, transforming, storing, and analyzing structured and semi-structured YouTube trending data. I designed the pipeline to handle growing data volume while ensuring secure, scalable, and efficient data processing in the cloud.
 
-## Project Goals
-1. Data Ingestion — Build a mechanism to ingest data from different sources
-2. ETL System — We are getting data in raw format, transforming this data into the proper format
-3. Data lake — We will be getting data from multiple sources so we need centralized repo to store them
-4. Scalability — As the size of our data increases, we need to make sure our system scales with it
-5. Cloud — We can’t process vast amounts of data on our local computer so we need to use the cloud, in this case, we will use AWS
-6. Reporting — Build a dashboard to get answers to the question we asked earlier
+##🎯 Objectives
 
-## Services we will be using
-1. Amazon S3: Amazon S3 is an object storage service that provides manufacturing scalability, data availability, security, and performance.
-2. AWS IAM: This is nothing but identity and access management which enables us to manage access to AWS services and resources securely.
-3. QuickSight: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence (BI) service built for the cloud.
-4. AWS Glue: A serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development.
-5. AWS Lambda: Lambda is a computing service that allows programmers to run code without creating or managing servers.
-6. AWS Athena: Athena is an interactive query service for S3 in which there is no need to load data it stays in S3.
+Data Ingestion – Ingest raw YouTube data from multiple sources
+ETL Pipeline – Transform raw data into clean, structured formats using AWS Glue
+Data Lake – Store and organize data in Amazon S3 as a centralized, scalable repository
+Scalability – Ensure the architecture supports increasing data volume
+Cloud-Based Processing – Utilize AWS cloud services to manage and process large datasets
+Data Visualization – Build a dashboard using Amazon QuickSight to derive key insights
 
-## Dataset Used
-This Kaggle dataset contains statistics (CSV files) on daily popular YouTube videos over the course of many months. There are up to 200 trending videos published every day for many locations. The data for each region is in its own file. The video title, channel title, publication time, tags, views, likes and dislikes, description, and comment count are among the items included in the data. A category_id field, which differs by area, is also included in the JSON file linked to the region.
+##☁️ AWS Services Used
 
-https://www.kaggle.com/datasets/datasnaek/youtube-new
+Amazon S3 – For storing raw and processed data securely
+AWS IAM – To manage user and service permissions securely
+AWS Glue – For ETL jobs to clean and prepare data
+AWS Lambda – For serverless triggers and lightweight processing
+AWS Athena – For running SQL queries directly on data stored in S3
+Amazon QuickSight – To visualize metrics and trends with interactive dashboards
+
+##📊 Dataset
+
+The project uses the YouTube Trending Videos Dataset from Kaggle. This dataset contains daily stats for trending videos across multiple countries, including:
+
+Video title, channel, publish time, tags, views, likes, dislikes, comments
+Regional category ID (mapped from JSON metadata)
+
+##✅ Key Outcomes
+
+Built a cloud-native pipeline for real-time and batch processing
+Centralized YouTube data in a structured data lake
+Generated analytical insights by video category, region, and performance metrics
